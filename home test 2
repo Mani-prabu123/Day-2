@@ -1,0 +1,17 @@
+package Day2;
+
+public class hometest2 {
+
+	public static void main(String[] args) {
+		int a = 65;
+        int b = 40  ;
+        System.out.println("Before swapping: a = " + a + ", b = " + b);
+        a = a + b; 
+        b = a - b; 
+        a = a - b; 
+       System.out.println("After swapping: a = " + a + ", b = " + b);
+
+
+	}
+
+}
